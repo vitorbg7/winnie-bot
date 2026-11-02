@@ -7,7 +7,9 @@ Bot de música para Discord (discord.js v14) com comandos de barra, fila, letras
 
 ## Em produção
 
-O bot está em uso real no Discord, com mais de 10 mil usuários. Os prints do painel do Discord Developer Portal ficam na pasta [`docs/`](docs/).
+O bot está em uso real no Discord. O próprio painel do Discord Developer Portal informa que o app **Winnie** (ID `891783462615400528`) atingiu **10.000 usuários**, o que exige revisão para continuar usando intents privilegiadas:
+
+![Painel do Discord Developer Portal](docs/discord-portal-10k.png)
 
 ## Recursos
 - Tocar música por busca ou link (YouTube, Spotify, SoundCloud, link direto)
