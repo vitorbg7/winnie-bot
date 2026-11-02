@@ -1,32 +1,34 @@
-# Winnie — bot de música para Discord
+# Winnie — Discord music bot
 
-Bot de música para Discord (discord.js v14) com comandos de barra, fila, letras de músicas, 20+ idiomas e suporte a sharding para muitos servidores.
+[🇧🇷 Português](README.pt-BR.md) · 🇺🇸 English
 
-> **Origem do código:** este projeto é baseado em um bot de música open source de [umutxyp](https://github.com/umutxyp), licenciado sob MIT (veja `LICENSE`).
-> Eu adaptei o bot, publiquei e o mantenho em produção.
+A Discord music bot (discord.js v14) with slash commands, queue, lyrics, 20+ languages and sharding support for large numbers of servers.
 
-## Em produção
+> **Code origin:** this project is based on an open-source music bot by [umutxyp](https://github.com/umutxyp), licensed under MIT (see `LICENSE`).
+> I adapted the bot, deployed it and keep it running in production.
 
-O bot está em uso real no Discord. O próprio painel do Discord Developer Portal informa que o app **Winnie** (ID `891783462615400528`) atingiu **10.000 usuários**, o que exige revisão para continuar usando intents privilegiadas:
+## In production
 
-![Painel do Discord Developer Portal](docs/discord-portal-10k.png)
+The bot is used in real servers on Discord. The Discord Developer Portal itself reports that the app **Winnie** (ID `891783462615400528`) reached **10,000 users**, which requires a review to keep using privileged intents:
 
-## Recursos
-- Tocar música por busca ou link (YouTube, Spotify, SoundCloud, link direto)
-- Fila, controles por botões, letras via Genius
-- 20+ idiomas
-- Sharding (`shard.js`) para escalar além de 1.000 servidores
+![Discord Developer Portal](docs/discord-portal-10k.png)
 
-## Como rodar
+## Features
+- Play music by search or link (YouTube, Spotify, SoundCloud, direct link)
+- Queue, button controls, lyrics via Genius
+- 20+ languages
+- Sharding (`shard.js`) to scale beyond 1,000 servers
+
+## Getting started
 ```bash
 npm install
-cp .env.example .env     # preencha com seus próprios tokens
-npm start                # ou: npm run shard
+cp .env.example .env     # fill in your own tokens
+npm start                # or: npm run shard
 ```
-Requer Node 24+ e uma aplicação criada em https://discord.com/developers/applications.
+Requires Node 24+ and an application created at https://discord.com/developers/applications.
 
-## Segurança
-Tokens ficam só no `.env` (ignorado pelo git). Nunca suba `.env` nem `cookies.txt`.
+## Security
+Tokens live only in `.env` (ignored by git). Never commit `.env` or `cookies.txt`.
 
-## Licença
-MIT. Copyright original de umutxyp, mantido em `LICENSE`.
+## License
+MIT. Original copyright by umutxyp, kept in `LICENSE`.
